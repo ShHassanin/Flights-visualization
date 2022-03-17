@@ -2,8 +2,8 @@
 - build interactive dashboards with Tableau (explanatory visualization) and use them to discover and communicate insights from data.
 Flights visualization.
 ## First visualization Dashboard:
-    As usual, the weather is the most common reason for cancellations and delays of flights.
-According to our cancellation dashboard (the link is cancellation reason | Tableau Public
+As usual, the weather is the most common reason for cancellations and delays of flights.
+According to our cancellation dashboard (the link is https://public.tableau.com/app/profile/sh2157/viz/cancellationreason_16468826132930/cancellationreason?publish=yes
 ), From the first visualization which includes at least 10 cancellations, TX (Texas) state had the 
 most cancellation in the USA in 2015. And Chicago city of IL state had the most cancellation all 
 over other cities in the USA. The weather caused 54% of the cancellation in the USA in 2015.
@@ -22,8 +22,8 @@ percentage. I employed colors in the dashboard to Illustrates the reason for the
 cancellation.
 
 ## Second visualization:
-    And as expected the most cancellation occurred in February and January as the 
-visualization shows (the link: cancellation over months | Tableau Public ).
+And as expected the most cancellation occurred in February and January as the 
+visualization shows (the link: https://public.tableau.com/app/profile/sh2157/viz/cancellationovermonths_16468781075430/cancellationovermonths?publish=yes ).
 #### design choices:
 - **Line chart** used for time series to show the cancellation over months as it is easier 
 to perceive trend over time on line charts. I employed a color-blind palette so 
@@ -33,16 +33,16 @@ trend.
 
 ## Third visualization:
     Third visualization shows the sum of cancellations over days of the week (the link: 
-cancellation over days of week | Tableau Public ).
+https://public.tableau.com/app/profile/sh2157/viz/cancellationoverdaysofweek/cancellationoverdaysofweek?publish=yes ).
 #### design choices:
 - **bar chart** used for multi-classification of categorical data. I employed a color-blind 
 palette so everyone can see the difference. I added the reason filter so that readers 
 can detect which reason was raised mostly on each day of the week.
 
-## Forth visualization:
+## Fourth visualization:
     Delay of the flights might be multifactorial and the visualization shows that there is a 
 correlation between arrival delay and air system delay, and between departure delay and both 
-airline delay and late aircraft delay. (the link: delay reasons | Tableau Public ).
+airline delay and late aircraft delay. (the link: https://public.tableau.com/app/profile/sh2157/viz/delayreasons_16468892387260/delayreasons?publish=yes ).
 #### design choices:
 - **scatter chart** used correlation between two numerical data, to show the correlation 
 between arrival delay and air system delay, and between departure delay and both 
