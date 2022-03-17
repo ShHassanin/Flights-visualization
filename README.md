@@ -1,6 +1,7 @@
 # Flights-visualization
 - build interactive dashboards with Tableau (explanatory visualization) and use them to discover and communicate insights from data.
-Flights visualization
+Flights visualization.
+## First visualization Dashboard:
     As usual, the weather is the most common reason for cancellations and delays of flights.
 According to our cancellation dashboard (the link is cancellation reason | Tableau Public
 ), From the first visualization which includes at least 10 cancellations, TX (Texas) state had the 
@@ -11,15 +12,16 @@ of weather forecasting, so these airlines and in these cities should care about 
 forecasting.
 #### design choices:
 - **Bar chart** used for multi-classification of categorical data, and when that data 
-includes geographical data (country, states, cities (as hierarchies)), so I merged a 
-map to the dashboard, and I add the total cancellation to the marked size wherein 
+includes **geographical** data (country, states, cities (as hierarchies)), so I merged a 
+**map** to the dashboard, and I add the total cancellation to the marked size wherein 
 the bigger size, the more number of flight cancellations. And to show the 
-percentage and focus on the reason, I employed a pie chart. I employed a colorblind palette so everyone can see the difference. I added many filters (states, 
+percentage and focus on the reason, I employed a **pie chart**. I employed a **colorblind** palette so everyone can see the difference. I added many **filters** (states, 
 cities, airlines, and reasons) so that readers can dig which states, cities, airlines
 have the highest and lowest cancellations and the most common reason and its 
 percentage. I employed colors in the dashboard to Illustrates the reason for the 
 cancellation.
 
+## Second visualization:
     And as expected the most cancellation occurred in February and January as the 
 visualization shows (the link: cancellation over months | Tableau Public ).
 #### design choices:
@@ -29,6 +31,7 @@ everyone can see the difference. I added the reason filter so that readers can d
 which reason was raised over months. and the total of all reasons is the month’s 
 trend.
 
+## Third visualization:
     Third visualization shows the sum of cancellations over days of the week (the link: 
 cancellation over days of week | Tableau Public ).
 #### design choices:
@@ -36,6 +39,7 @@ cancellation over days of week | Tableau Public ).
 palette so everyone can see the difference. I added the reason filter so that readers 
 can detect which reason was raised mostly on each day of the week.
 
+## Forth visualization:
     Delay of the flights might be multifactorial and the visualization shows that there is a 
 correlation between arrival delay and air system delay, and between departure delay and both 
 airline delay and late aircraft delay. (the link: delay reasons | Tableau Public ).
